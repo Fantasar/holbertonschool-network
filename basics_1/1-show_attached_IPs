@@ -1,0 +1,3 @@
+#!/bin/bash
+# Script bash qui permet d'afficher toutes les adresse ip ipv4 en cours d'execution
+ifconfig | grep "inet " | awk '{print $2}'
