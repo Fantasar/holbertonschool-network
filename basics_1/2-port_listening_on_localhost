@@ -1,0 +1,3 @@
+#!/bin/bash
+# Script bash pour envoyer un Hello worlds sur un new port du localhost
+nc -l 98
