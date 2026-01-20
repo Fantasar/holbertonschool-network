@@ -1,2 +1,3 @@
 #!/bin/bash
+#Script bash pour afficher les informations des ports
 netstat -tup
